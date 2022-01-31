@@ -1,0 +1,41 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	font-size: 16px;
+}
+
+.message{
+	font-weight: normal;
+	color: white;
+	background: rgba(9,120,202,1);
+	padding: 1vh 1.5vw;
+	display: block;
+
+	font-size: 1.25em;
+	font-family: "Courier New";
+	text-align: center;
+}
+
+h3{
+	display: flex;
+	justify-content: space-between;
+	background: blue;
+    padding: 2vh 2vw;
+    color: white;
+    text-align: right;
+}
+
+h3 div:first-of-type{
+	text-transform: uppercase;
+}
+h3 div:last-of-type > a{
+	color: brown;
+	text-decoration: none;
+	font-weight: bold;
+}
+h3 div:last-of-type > a:hover{
+	text-decoration: underline;
+}

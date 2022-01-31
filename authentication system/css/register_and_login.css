@@ -1,0 +1,67 @@
+form,input[type=submit]:hover{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75);			
+}
+form{
+	padding: 1.3vw;
+	width: 32%;
+	margin: 0 auto;
+	border: 3px solid #b9b9b9;
+	border-radius: 0.2vw;
+}
+
+form fieldset{
+	padding: 1vw;
+	margin-bottom: 2vh;
+}
+form fieldset, form fieldset main > div input{
+	border-color: #ababab;
+}
+form fieldset legend{
+	color: rgba(9,120,202,1);
+	font-weight: bolder;
+	font-size: 1.4em;
+}
+form fieldset main{
+	display: flex;
+	justify-content: center;
+}
+form fieldset main > div:first-of-type{
+	text-align: right;
+}
+form fieldset main > div{
+	display: flex;
+	flex-flow: wrap column;
+}
+form fieldset main > div label{
+	font-weight: bold;
+	padding-right: 1vw;
+	padding-bottom: 3vh;
+}
+form fieldset main > div label:hover{
+	cursor: pointer;
+	transition: 1s ease;
+	color: rgba(9,120,202,1);
+}
+
+form fieldset main > div input{
+	border-radius: 0.45vw;
+	padding: 0.5vh 0.4vw;
+	margin-bottom: 2vh;
+}
+input[type=submit]{
+	border-radius: 0.4vw;
+	padding: 0.5vh 0.8vw;
+	color: white;
+	margin-top: 1vh;
+	border: 0.15vw solid #6E8BAA;
+	background: rgb(9,120,202);
+	background: linear-gradient(0deg, rgba(9,120,202,1) 0%, rgba(138,193,238,1) 69%);
+}
+input[type=submit]:hover{
+	transition: 1s ease;
+	cursor: pointer;
+	background: brown;
+	color: black;
+}
